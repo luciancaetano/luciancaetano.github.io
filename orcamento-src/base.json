@@ -1,0 +1,90 @@
+{
+    "base": 480,
+    "title" : "Esta é um simulador de orçamento, com esta ferramenta você terá um valor aproximado do custo de desenvolvimento de seu aplicativo, para valores exatos entre em contato e faça um orçamentoconosco, ficaremos feliz em ajuda-lo.",
+    "questions" :[
+        {
+            "question" : "Que tipo de aplicativo você precisa ?",
+            "answ" : [
+                {"title": "Aplicativo Android", "percent": 0.3},
+                {"title": "Aplicativo IPhone", "percent": 0.4},
+                {"title": "Aplicativo Android e IPhone", "percent": 0.9}
+            ]
+        },
+        {
+            "question" : "Qual design você deseja para o seu aplicativo ?",
+            "answ" : [
+                {"title": "Apenas pequenas modificações, usarei o tema da plataforma.", "percent": 0.18},
+                {"title": "Preciso que meu aplicativo tenha uma temática e cores personalizadas.", "percent": 0.5},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "Qual retorno financeiro você deseja ter?",
+            "answ" : [
+                {"title": "Aplicativo Gratuito sem publicidade", "percent": 0.1},
+                {"title": "Aplicativo Gratuito com publicidade", "percent": 0.2},
+                {"title": "Aplicativo pago (sem publicidade)", "percent": 0.1},
+                {"title": "Compras dentro do aplicativo(Loja)", "percent": 0.7},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "Deseja que seu aplicativo tenha algum sistema de login ?",
+            "answ" : [
+                {"title": "Não é necessário um sistema de login", "percent": 0.03},
+                {"title": "Login com redes sociais e email", "percent": 0.55},
+                {"title": "Apenas com email", "percent": 0.5},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "Deseja que seu aplicativo integre com algum site ?",
+            "answ" : [
+                {"title": "Sim", "percent": 0.5},
+                {"title": "Não", "percent": 0.01},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "O usuários que se cadastrarem no seu aplicativo devem ter seu perfil próprio ?",
+            "answ" : [
+                {"title": "Sim", "percent": 0.7},
+                {"title": "Não", "percent": 0.01},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "Seu aplicativo precisa de integração com câmera/microfone ?",
+            "answ" : [
+                {"title": "Sim", "percent": 0.4},
+                {"title": "Não", "percent": 0.01},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "O seu aplicativo precisa de um painel administrativo ?",
+            "answ" : [
+                {"title": "Sim", "percent": 0.15},
+                {"title": "Não", "percent": 0.01},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "O seu aplicativo precisa de suporte a multiplas línguas ?",
+            "answ" : [
+                {"title": "Bilíngue", "percent": 0.2},
+                {"title": "Multilíngue", "percent": 0.7},
+                {"title": "Somente uma única língua.", "percent": 0.01},
+                {"title": "Ainda não sei.", "percent": 0}
+            ]
+        },
+        {
+            "question" : "Em que estágio encontra-se o seu projeto ?",
+            "answ" : [
+                {"title": "Apenas uma idéia", "percent": 0.3},
+                {"title": "Esboço pronto", "percent": 0.25},
+                {"title": "Em desenvolvimento", "percent": 0.2}
+            ]
+        }
+    ]
+}
